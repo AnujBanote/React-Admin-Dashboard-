@@ -1,7 +1,7 @@
 # 📊 React Dashboard & Management System
 
 ## 📸 Preview
-https://react-admin-dashboard-09.netlify.app/dashboard
+https://react-admin-dashboard-09.netlify.app
 
 ## 🧭 Overview
 A modern, responsive **React-based dashboard application** that includes:
