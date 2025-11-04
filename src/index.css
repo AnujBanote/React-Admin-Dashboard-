@@ -1,0 +1,96 @@
+:root {
+  --transparent-black: rgba(0, 0, 0, 0.294);
+  --black: #111111;
+  --grey: rgba(255, 255, 255, 0.597);
+  --orange: #ff805d;
+  --green: rgb(54, 234, 54);
+  --orange-gradient: linear-gradient(
+    268.35deg,
+    rgba(255, 70, 70, 0.99) 3.47%,
+    rgba(255, 114, 70, 0.99) 60.18%
+  );
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Public Sans", sans-serif;
+  background-color: var(--black);
+  color: white;
+  overflow-x: hidden;
+}
+
+#dashboard {
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--black);
+  color: white;
+  font-family: inherit;
+  overflow: hidden;
+}
+
+.theme-container {
+  background: rgba(0, 0, 0, 0.59);
+  border-radius: 20px;
+  padding: 2rem;
+}
+
+.gradient-red,
+.gradient-orange,
+.gradient-blue {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%; /* makes glow smoother */
+  filter: blur(90px);
+  opacity: 0.8; /* optional, for smoother blending */
+}
+
+.gradient-red {
+  background: #ff5d5d;
+}
+
+.gradient-orange {
+  background: var(--orange);
+}
+
+.gradient-blue {
+  background: #5dc9ff;
+}
+
+.grey-container {
+  border-top: 0.3px solid rgba(255, 255, 255, 0.185);
+  border-bottom: 0.3px solid rgba(255, 255, 255, 0.185);
+  background: linear-gradient(
+    90deg,
+    rgba(53, 53, 53, 0) 1.21%,
+    rgba(53, 53, 53, 0.46) 49.45%,
+    rgba(53, 53, 53, 0) 103.83%
+  );
+  padding: 1.5rem 1rem;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(128, 128, 128, 0.6);
+  border-radius: 10px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(180, 180, 180, 0.8);
+}
