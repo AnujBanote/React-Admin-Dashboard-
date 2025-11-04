@@ -43,62 +43,62 @@ The app will start on http://localhost:5173 (Vite default).
 ---
 
 ## 📁 Folder Structure
-
 Admin-dashboard/
 │
 ├── src/
-│ ├── components/
-│ │ ├── AddCardModal/
-│ │ │ ├── AddCardModal.jsx
-│ │ │ └── AddCardModal.module.css
-│ │ ├── Layout/
-│ │ │ ├── Layout.jsx
-│ │ │ └── Layout.module.css
-│ │ ├── Orders/
-│ │ │ ├── Orders.jsx
-│ │ │ └── Order.module.css
-│ │ ├── OrdersPieChart/
-│ │ │ └── OrdersPieChart.jsx
-│ │ ├── Sidebar/
-│ │ │ ├── Sidebar.jsx
-│ │ │ └── Sidebar.module.css
-│ │ ├── Statistics/
-│ │ │ ├── Statistics.jsx
-│ │ │ ├── StatisticsChart.jsx
-│ │ │ └── Statistics.module.css
-│ │ └── DataGrid/
-│ │ ├── DataGrid.jsx
-│ │ └── DataGrid.css
-│ │
-│ ├── pages/
-│ │ ├── Dashboard/
-│ │ │ ├── Dashboard.jsx
-│ │ │ └── Dashboard.module.css
-│ │ ├── Calendar/
-│ │ │ ├── Calendar.jsx
-│ │ │ └── Calendar.css
-│ │ ├── Board/
-│ │ │ ├── Board.jsx
-│ │ │ └── Board.css
-│ │ └── DataGrid/
-│ │ └── DataGrid.jsx
-│ │
-│ ├── store/
-│ │ ├── Board.js
-│ │ ├── Calendar.js
-│ │ └── (state management files)
-│ │
-│ ├── data/
-│ │ └── data.js
-│ │
-│ ├── App.jsx
-│ ├── main.jsx
-│ ├── index.css
-│ └── assets/
-│ ├── logo.png
-│ └── profile.png
+│   ├── components/
+│   │   ├── AddCardModal/
+│   │   │   ├── AddCardModal.jsx
+│   │   │   └── AddCardModal.module.css
+│   │   ├── Layout/
+│   │   │   ├── Layout.jsx
+│   │   │   └── Layout.module.css
+│   │   ├── Orders/
+│   │   │   ├── Orders.jsx
+│   │   │   └── Order.module.css
+│   │   ├── OrdersPieChart/
+│   │   │   └── OrdersPieChart.jsx
+│   │   ├── Sidebar/
+│   │   │   ├── Sidebar.jsx
+│   │   │   └── Sidebar.module.css
+│   │   ├── Statistics/
+│   │   │   ├── Statistics.jsx
+│   │   │   ├── StatisticsChart.jsx
+│   │   │   └── Statistics.module.css
+│   │   ├── DataGrid/
+│   │   │   ├── DataGrid.jsx
+│   │   │   └── DataGrid.css
+│   │
+│   ├── pages/
+│   │   ├── Dashboard/
+│   │   │   ├── Dashboard.jsx
+│   │   │   └── Dashboard.module.css
+│   │   ├── Calendar/
+│   │   │   ├── Calendar.jsx
+│   │   │   └── Calendar.css
+│   │   ├── Board/
+│   │   │   ├── Board.jsx
+│   │   │   └── Board.css
+│   │   └── DataGrid/
+│   │       └── DataGrid.jsx
+│   │
+│   ├── store/
+│   │   ├── Board.js
+│   │   ├── Calendar.js
+│   │   └── (state management files)
+│   │
+│   ├── data/
+│   │   └── data.js
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   ├── index.css
+│   └── assets/
+│       ├── logo.png
+│       └── profile.png
 │
 └── package.json
+
 
 ---
 
